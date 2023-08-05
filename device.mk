@@ -36,7 +36,7 @@ PRODUCT_PACKAGES += \
     install-recovery.sh \
 
 PRODUCT_PACKAGES += \
-    fstab.enableswap \
+    fstab.mt6768 \
     meta_init.project.rc \
     multi_init.rc \
     init.modem.rc \
@@ -55,8 +55,7 @@ PRODUCT_PACKAGES += \
     factory_init.project.rc \
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.enableswap:$(TARGET_COPY_OUT_RAMDISK)/fstab.enableswap
-
+    $(LOCAL_PATH)/rootdir/etc/fstab.mt6768:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6768
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
