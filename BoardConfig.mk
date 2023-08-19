@@ -146,3 +146,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
 # include vendor/xiaomi/lancelot/BoardConfigVendor.mk
+
+# AUDIO
+
+USE_XML_AUDIO_POLICY_CONF := 1
