@@ -36,7 +36,6 @@ PRODUCT_PACKAGES += \
     set_product_name.sh \
 
 PRODUCT_PACKAGES += \
-    fstab.mt6768 \
     init.mt6768.rc \
     init.ago.rc \
     init.connectivity.rc \

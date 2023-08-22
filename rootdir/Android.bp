@@ -124,9 +124,5 @@ prebuilt_etc {
     vendor: true,
 }
 
-// fstab
-prebuilt_etc {
-    name: "fstab.mt6768",
-    src: "etc/fstab.mt6768",
-    vendor: true,
+
 }
